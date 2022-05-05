@@ -94,7 +94,7 @@ def get_scattered_chart(entered_site, payload):
                         x='Payload Mass (kg)',
                         y='class',
                         color="Booster Version Category",
-                        itle='Correlation between payload and success for site: ' + entered_site)
+                        title='Correlation between payload and success for site: ' + entered_site)
         return fig
 
 # Run the app
